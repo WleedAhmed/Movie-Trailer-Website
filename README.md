@@ -8,7 +8,7 @@ Trailer Website with your favorite Movies.
 ## Usage
 
 Download the repo and in entertainment_center.py added your own Movies with their names,posters and
-trailer link.
+Trailer links.
 Run the code to generate or update the HTML web page.
 
 
