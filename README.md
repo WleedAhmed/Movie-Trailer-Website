@@ -7,17 +7,27 @@ Trailer Website with your favorite Movies.
 
 ## Usage
 
-Download the repo and in entertainment_center.py added your own Movies with their names,posters and
-Trailer links.
-Run the code to generate or update the HTML web page.
-
-
-
+Download the project zip file to your Local Machine or Clone the project.
+To clone the project:
 ```shell
 git clone https://github.com/WleedAhmed/Movie-Trailer-Website.git
 ```
 
-to clone the repo to your working directory
+Open entertainment_center.py in your favorite text editor.
+Add whatever movies you want using this form:
+```shell
+nameOfMovie = media.Movie("name that will show in the web page",
+                          "Poster image url"
+                          "Trailer url")
+```
+
+Add that instances in one list:
+```shell
+movies = [movie1, movie2, movie3...}
+```
+
+Put the list in the fresh_tomatoes.open_movies_page() function.
+Run entertainment_center.py to create the HTML page.
 
 ## Licensing
 
